@@ -1,13 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hot Beans Recruitment Section</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Beans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">Hot Beans</a>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/developers">Our Developers</a></li>
+                <li><a href="/jobs">Job Openings</a></li>
+                <li><a href="/apply">Apply Now</a></li>
+                <li><a href="/resources">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Launch Your Career at Hot Beans</h1>
+                <p>Join our talented team of developers and build the digital experiences of tomorrow.</p>
+                <div class="cta-buttons">
+                    <a href="/jobs" class="btn btn-primary">View Open Positions</a>
+                    <a href="/apply" class="btn btn-secondary">Apply Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h2>About Hot Beans</h2>
+                <p>We're a forward-thinking company specializing in creating innovative digital solutions.</p>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <h3>Technical Excellence</h3>
+                        <p>We take pride in writing clean, efficient, and maintainable code.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>Collaborative Spirit</h3>
+                        <p>We believe great ideas emerge when we work together as a team.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>Continuous Learning</h3>
+                        <p>We invest in growth and stay at the forefront of technology.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2>Meet Our Team</h2>
+                <div class="testimonials-slider">
+                    <div class="testimonial">
+                        <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Alex Johnson">
+                        <blockquote>Starting my career at Hot Beans has been incredible. The mentorship program paired me with a senior developer who has helped me grow my skills exponentially.</blockquote>
+                        <cite>Alex Johnson, Junior Front-End Developer</cite>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev" aria-label="Previous testimonial">←</button>
+                    <button class="next" aria-label="Next testimonial">→</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Hot Beans</h3>
+                    <p>Empowering the next generation of web developers through innovation, education, and opportunity.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/developers">Our Developers</a></li>
+                        <li><a href="/jobs">Job Openings</a></li>
+                        <li><a href="/apply">Apply Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <address>
+                        123 Tech Lane, Digital City, WD12 3TE<br>
+                        +44 (0) 1234 567890<br>
+                        careers@hotbeans.com
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Hot Beans. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
 </html>
