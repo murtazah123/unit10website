@@ -1,7 +1,7 @@
 /* Base styles */
 :root {
-    --primary-color: #6366f1;
-    --secondary-color: #4f46e5;
+    --primary-color: #16a34a;
+    --secondary-color: #15803d;
     --text-color: #1f2937;
     --light-text: #6b7280;
     --background: #ffffff;
@@ -300,7 +300,7 @@ footer {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+    box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.1);
 }
 
 /* Resources Grid */
